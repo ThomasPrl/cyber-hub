@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import About from './About'
 import Globe from './Globe'
+import Cards from './Cards'
 
 function Home() {
   return (
@@ -18,10 +19,9 @@ function Home() {
           <p className="primary-text">
             Cassiopée Project
           </p>
-
-          
         </div>
       </div>
+      <Cards/>
     </div>
   )
 }
