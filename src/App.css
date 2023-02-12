@@ -65,6 +65,13 @@ nav {
   max-height: 600px;
   /* background-color: blue; */
 }
+
+@media (max-width: 1150px) {
+  .globe {
+    display: none;
+  }
+}
+
 .home-text-section {
   flex: 1;
   margin-right: 100px;
