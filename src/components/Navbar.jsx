@@ -1,4 +1,9 @@
 import React, { useState } from 'react'
+import { Route, Routes, Link } from 'react-router-dom';
+
+import Home from "./Home"
+import Conferences from './Conferences';
+
 import Logo from "../assets/CyberHub_black.svg"
 import LogoGradient from "../assets/CyberHub_gradient.png";
 
@@ -15,6 +20,7 @@ import InfoIcon from "@mui/icons-material/Info";
 import CampaignIcon from '@mui/icons-material/Campaign';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
+
 
 function Navbar() {
 
@@ -49,13 +55,19 @@ function Navbar() {
             <img src={LogoGradient} alt="logo"/>
         </div>
         <div className="navbar-links-container">
-            <a href="">Home</a>
-            <a href="">Conferences</a>
-            <a href="">Certificates</a>
+
+            <a><Link to="/">Home</Link></a>
+            <a><Link to="/conferences">Conferences</Link></a>
+            <a><Link to="/certifications">Certifications</Link></a>
+            <a><Link to="/about">About</Link></a>
+            <a><Link to="/profile/:id">
+                <AccountCircleIcon />
+            </Link></a>
+            {/* <a href="">Certificates</a>
             <a href="">About</a>
             <a href="">
                 <AccountCircleIcon />     
-            </a>
+            </a> */}
         </div>
 
         {/* RESPONSIVE BURGER MENU */}

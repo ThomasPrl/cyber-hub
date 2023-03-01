@@ -2,10 +2,8 @@ import React from 'react'
 
 function About() {
   return (
-    <div className="about-section-container">
-        <div className="about-section-text-container">
-            <p className="primary-subheading">About</p>
-        </div>
+    <div>
+      <h1>About</h1>
     </div>
   )
 }

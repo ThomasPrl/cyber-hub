@@ -28,6 +28,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   min-height: 120px;
+
 }
 
 .navbar-logo-container{
@@ -39,7 +40,7 @@ nav {
   display: none;
 }
 .navbar-links-container a {
-  margin-right: 3rem;
+  margin-right: 2rem;
   text-decoration: none;
   color: black;
   font-size: 1.5rem;
@@ -47,7 +48,7 @@ nav {
 }
 
 .navbar-account-icon {
-  font-size: 1.15rem;
+  font-size: 2rem;
 }
 
 .navbar-menu-container svg {
@@ -67,9 +68,11 @@ nav {
 }
 
 @media (max-width: 1150px) {
-  .globe {
-    display: none;
+  .landing-page{
+    flex-direction: column-reverse;
   }
+
+
 }
 
 .home-text-section {
@@ -78,7 +81,7 @@ nav {
   /* display: flex; */
   /* flex-direction: column; */
   /* justify-content: center; */
-  /* align-items: flex-start; */
+  /* align-items: flex-start; */ 
 }
 .primary-heading {
   font-size: clamp(3rem, 3vw, 3rem);
@@ -381,9 +384,6 @@ nav {
     max-width: 700px;
   }
 
-  .globe{
-    display: none;
-  }
 }
 @media (max-width: 800px) {
   .navbar-logo-container {
