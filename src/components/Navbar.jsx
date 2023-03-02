@@ -1,10 +1,7 @@
 import React, { useState } from 'react'
-import { Route, Routes, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-import Home from "./Home"
-import Conferences from './Conferences';
-
-import Logo from "../assets/CyberHub_black.svg"
+// import Logo from "../assets/CyberHub_black.svg"
 import LogoGradient from "../assets/CyberHub_gradient.png";
 
 import { HiOutlineBars3 } from "react-icons/hi2";
@@ -60,14 +57,9 @@ function Navbar() {
             <a><Link to="/conferences">Conferences</Link></a>
             <a><Link to="/certifications">Certifications</Link></a>
             <a><Link to="/about">About</Link></a>
-            <a><Link to="/profile/:id">
+            {/* <a><Link to="/profile/:id">
                 <AccountCircleIcon />
-            </Link></a>
-            {/* <a href="">Certificates</a>
-            <a href="">About</a>
-            <a href="">
-                <AccountCircleIcon />     
-            </a> */}
+            </Link></a> */}
         </div>
 
         {/* RESPONSIVE BURGER MENU */}

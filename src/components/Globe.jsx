@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from 'react'
-import { useSpring } from 'use-spring'
 import createGlobe from 'cobe'
 
 
