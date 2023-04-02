@@ -7,7 +7,7 @@ console.log(data);
 function Conferences() {
 
   const [conferences, setConferences] = useState([]);
-  const [filters, setFilters] = useState(['CSS']);
+  const [filters, setFilters] = useState([]);
 
   useEffect(() => setConferences(data), []);
 
