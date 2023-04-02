@@ -4,7 +4,7 @@ function About() {
   return (
     <div>
         <h1 className="page-title">
-            <span className='text-gradient'>About</span>
+            <span className='text-gradient text-4xl'>About</span>
         </h1>
     </div>
   )

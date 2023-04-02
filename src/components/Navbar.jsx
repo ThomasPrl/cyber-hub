@@ -53,10 +53,10 @@ function Navbar() {
         </div>
         <div className="navbar-links-container">
 
-            <a><Link to="/">Home</Link></a>
-            <a><Link to="/conferences">Conferences</Link></a>
-            <a><Link to="/certifications">Certifications</Link></a>
-            <a><Link to="/about">About</Link></a>
+            <Link to="/">Home</Link>
+            <Link to="/conferences">Conferences</Link>
+            <Link to="/certifications">Certifications</Link>
+            <Link to="/about">About</Link>
             {/* <a><Link to="/profile/:id">
                 <AccountCircleIcon />
             </Link></a> */}
