@@ -43,7 +43,7 @@ function Conferences() {
 
   return (
     <div>
-       <h1 className="page-title pb-10">
+       <h1 className="page-title">
             <span className='text-gradient text-5xl'>Conferences</span>
         </h1>
         <span className='flex'>

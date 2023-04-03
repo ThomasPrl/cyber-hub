@@ -60,59 +60,12 @@ nav {
 
 
 /* --------------------HOME PAGE---------------------------- */
-.landing-page{
-  display: flex;
-  flex-direction: row-reverse;
-  
-}
-.globe{
-  max-height: 600px;
-}
-
-@media (max-width: 1150px) {
-  .landing-page{
-    flex-direction: column-reverse;
-  }
-
-  .globe{
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-
-}
-
-.home-text-section {
-  flex: 1;
-  margin-right: 100px;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
-  /* align-items: flex-start; */ 
-}
-.primary-heading {
-  font-size: clamp(3rem, 3vw, 3rem);
-  color: #4c4c4c;
-  line-height: 4rem;
-  max-width: 700px;
-  padding-top: 10rem;
-  text-align: left;
-
-
-}
 .text-gradient {
   background: #121FCF;
   background: linear-gradient(to right, #121FCF 0%, #25A7CF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   
-}
-.primary-text {
-  font-size: clamp(1rem, 3vw, 1.5rem);
-  max-width: 500px;
-  color: #6a6a6a;
-  margin: 1.5rem 0rem;
-  /* padding-bottom: 16rem; */
 }
 
 
@@ -196,21 +149,6 @@ nav {
   color: #1d39c4;
 }
 
-
-/* --------------------FOOTER---------------------------- */
-
-.footer{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}
-
-.footer-text{
-  margin-bottom: 1rem;
-  font-size: 0.8rem;
-}
 
 /* ------------------------------------------------------------------------- */
 

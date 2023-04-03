@@ -18,7 +18,7 @@ const ConferencesBoard = ( {conference, handleTagClick }) => {
                 <h3 className='font-bold text-lg text-blue-600'>
                     {conference.localisation}
                     <span className='bg-blue-500 text-blue-100 text-sm m-2 py-1 px-2 rounded-full'>
-                        Acceptance ratio: 
+                        Acceptance: 
                         <span className='ml-1'>
                             {conference.acceptance}
                         </span>

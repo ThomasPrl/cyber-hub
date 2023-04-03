@@ -25,71 +25,83 @@ function Navbar() {
     const menuOptions = [
         {
             text:"Home",
-            icon:<HomeIcon/>
+            icon:<HomeIcon/>,
+            path:"/"
         },
         {
             text:"Conferences",
-            icon:<CampaignIcon/>
+            icon:<CampaignIcon/>,
+            path:"/conferences"
         },
         {
             text:"Certificates",
-            icon:<MenuBookIcon/>
+            icon:<MenuBookIcon/>,
+            path:"/certifications"
         },
         {
             text:"About",
-            icon:<InfoIcon/>
+            icon:<InfoIcon/>,
+            path:"/about"
         },
         {
             text:"Account",
-            icon:<AccountCircleIcon/>
+            icon:<AccountCircleIcon/>,
+            path:"/profile/:id"
         },
     ];
 
 
   return (
     <nav>
-        <div className="navbar-logo-container">
-            <img src={LogoGradient} alt="logo"/>
-        </div>
-        <div className="navbar-links-container">
+    <div className="navbar-logo-container">
+        <img src={LogoGradient} alt="logo"/>
+    </div>
+    <div className="navbar-links-container">
 
-            <Link to="/">Home</Link>
-            <Link to="/conferences">Conferences</Link>
-            <Link to="/certifications">Certifications</Link>
-            <Link to="/about">About</Link>
-            {/* <a><Link to="/profile/:id">
-                <AccountCircleIcon />
-            </Link></a> */}
-        </div>
+        <Link to="/">Home</Link>
+        <Link to="/conferences">Conferences</Link>
+        <Link to="/certifications">Certifications</Link>
+        <Link to="/about">About</Link>
+        {/* <a><Link to="/profile/:id">
+            <AccountCircleIcon />
+        </Link></a> */}
+    </div>
 
-        {/* RESPONSIVE BURGER MENU */}
-        <div className="navbar-menu-container">
-            <HiOutlineBars3 onClick={() => setOpenMenu(true)}/>
-        </div>
-        <Drawer open={openMenu} onClose={() => setOpenMenu(false)} anchor="right">
-            <Box
-            sx={{width: 250}}
-            role="presentation"
-            onClick={() => setOpenMenu(false)}
-            onKeyDown={() => setOpenMenu(false)}
-            >
-                <List>
-                    {menuOptions.map((item) => (
-                        <ListItem key={item.text} disablePadding>
-                            <ListItemButton>
-                                <ListItemIcon>{item.icon}</ListItemIcon>
+    {/* RESPONSIVE BURGER MENU */}
+    <div className="navbar-menu-container">
+        <HiOutlineBars3 onClick={() => setOpenMenu(true)}/>
+    </div>
+    <Drawer open={openMenu} onClose={() => setOpenMenu(false)} anchor="right">
+        <Box
+        sx={{width: 250}}
+        role="presentation"
+        onClick={() => setOpenMenu(false)}
+        onKeyDown={() => setOpenMenu(false)}
+        >
+            <List>
+                {menuOptions.map((item) => (
+                    <ListItem key={item.text} disablePadding>
+                        <ListItemButton>
+                            <ListItemIcon>{item.icon}</ListItemIcon>
+                            <Link to={item.path}>
                                 <ListItemText primary={item.text}/>
-                            </ListItemButton>
-                        </ListItem>
-                    ))}
-                </List>
-            </Box>
-        </Drawer>
+                            </Link>    
+                        </ListItemButton>
+                    </ListItem>
+                ))}
+            </List>
+        </Box>
+    </Drawer>
 
 
 
-    </nav>
+</nav>
+
   )
 }
 
 export default Navbar
+
+
+
+

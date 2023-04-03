@@ -7,23 +7,23 @@ import Globe from './Globe'
 
 function Home() {
   return (
-    
-    <div className="home-container">
-      <div className="landing-page">
-        <div className="globe">
-          <Globe/>
-        </div>
-        <div className="home-text-section">
-          <h1 className="primary-heading">
-            Here you will find everything you need about <span className='text-gradient'>Cybersecurity</span>
-          </h1>
-          <p className="primary-text">
-            Cassiopée Project
-          </p>
-        </div>
-      </div>
-      {/* <Cards/> */}
+<div className="flex items-center justify-center">
+  <div className="flex flex-col sm:flex-row items-center justify-center">
+    <div className="flex flex-col sm:flex-row sm:flex">
+      <h1 className="text-center text-3xl leading-10 sm:text-left sm:p-20 sm:pt-12 sm:max-w-xl sm:pl-0 sm:text-5xl sm:leading-tight ">
+        Here you will find everything you need about <span className='text-gradient'>Cybersecurity</span>
+        <p className="text-center text-xl sm:text-left mt-3 sm:mt-2">
+        Cassiopée Project
+      </p>
+      </h1>
+
     </div>
+    <div className="-m-8 sm:m-auto sm:self-center">
+      <Globe/>
+    </div>
+  </div>
+</div>
+
   )
 }
 

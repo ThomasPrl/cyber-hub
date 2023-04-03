@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <Navbar />
 
-      {/* <Footer /> */}
+
 
       <Routes>
             <Route path="/" element={<Home />} />
@@ -23,7 +23,7 @@ function App() {
             <Route path="/about" element={<About />} />
       </Routes>
 
-
+      <Footer />
     </div>
   );
 }
