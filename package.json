@@ -17,6 +17,7 @@
     "react-router-dom": "^6.8.2",
     "react-spring": "^9.6.1",
     "styled-components": "^5.3.8",
+    "three-globe": "^2.25.4",
     "use-spring": "^0.2.4",
     "web-vitals": "^2.1.4"
   },

@@ -1,28 +1,29 @@
 import React from 'react'
 import Globe from './Globe'
 
+
 // import styled from "styled-components";
 // import { keyframes } from "styled-components";
 
 
 function Home() {
   return (
-<div className="flex items-center justify-center">
-  <div className="flex flex-col sm:flex-row items-center justify-center">
-    <div className="flex flex-col sm:flex-row sm:flex">
-      <h1 className="text-center text-3xl leading-10 sm:text-left sm:p-20 sm:pt-12 sm:max-w-xl sm:pl-0 sm:text-5xl sm:leading-tight ">
-        Here you will find everything you need about <span className='text-gradient'>Cybersecurity</span>
-        <p className="text-center text-xl sm:text-left mt-3 sm:mt-2">
-        Cassiopée Project
-      </p>
-      </h1>
+    <div className="flex items-center justify-center">
+      <div className="flex flex-col xl:flex-row items-center justify-center">
+        <div className="flex flex-col xl:flex-row xl:flex">
+          <h1 className="text-center text-3xl leading-10 xl:text-left xl:p-20 xl:pt-12 xl:max-w-xl xl:pl-0 xl:text-5xl xl:leading-tight ">
+            Here you will find everything you need about <span className='text-gradient'>Cybersecurity</span>
+            <p className="text-center text-xl xl:text-left mt-3 xl:mt-2">
+            Cassiopée Project
+          </p>
+          </h1>
 
+        </div>
+        <div className="-m-8 xl:m-auto xl:self-center">
+          <Globe/>
+        </div>
+      </div>
     </div>
-    <div className="-m-8 sm:m-auto sm:self-center">
-      <Globe/>
-    </div>
-  </div>
-</div>
 
   )
 }
@@ -60,7 +61,7 @@ function Home() {
   font-feature-settings: "kern";
   overflow-wrap: break-word;
   text-align: center;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-xloothing: grayscale;
   font-size: 48px;
   font-weight: 700;
   line-height: 48px;

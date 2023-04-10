@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 // import Logo from "../assets/CyberHub_black.svg"
 import LogoGradient from "../assets/CyberHub_gradient.png";
+import close from "../assets/close.svg";
+import menu from "../assets/menu.svg";
 
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
@@ -19,6 +21,86 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 
 
+// const Navbar = () => {
+//     const [active, setActive] = useState("Home");
+//     const [toggle, setToggle] = useState(false);
+//     const menuOptions = [
+//         {
+//             title:"Home",
+//             icon:<HomeIcon/>,
+//             id:"/"
+//         },
+//         {
+//             title:"Conferences",
+//             icon:<CampaignIcon/>,
+//             id:"conferences"
+//         },
+//         {
+//             title:"Certificates",
+//             icon:<MenuBookIcon/>,
+//             id:"certifications"
+//         },
+//         {
+//             title:"About",
+//             icon:<InfoIcon/>,
+//             id:"about"
+//         },
+//         // {
+//         //     title:"Account",
+//         //     icon:<AccountCircleIcon/>,
+//         //     id:"account"
+//         // },
+//     ];
+  
+//     return (
+//       <nav className="w-full flex py-6 justify-between items-center navbar">
+//         <img src={LogoGradient} alt="hoobank" className="w-40" />
+  
+//         <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+//           {menuOptions.map((nav, index) => (
+//             <li
+//               key={nav.id}
+//               className={`font-poppins font-normal cursor-pointer text-[16px] ${
+//                 active === nav.title ? "text-black" : "text-dimBlack"
+//               } ${index === menuOptions.length - 1 ? "mr-0" : "mr-10"}`}
+//               onClick={() => setActive(nav.title)}
+//             >
+//               <a href={`${nav.id}`}>{nav.title}</a>
+//             </li>
+//           ))}
+//         </ul>
+  
+//         <div className="sm:hidden flex flex-1 justify-end items-center">
+//           <img
+//             src={toggle ? close : menu}
+//             alt="menu"
+//             className="w-[28px] h-[28px] object-contain"
+//             onClick={() => setToggle(!toggle)}
+//           />
+  
+//           <div
+//             className={`${
+//               !toggle ? "hidden" : "flex"
+//             } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 rounded-xl sidebar`}
+//           >
+//             <ul className="list-none flex justify-end items-start flex-1 flex-col">
+//               {menuOptions.map((nav, index) => (
+//                 <li
+//                   key={nav.id}
+//                   className={`font-poppins font-medium cursor-pointer text-[16px] ${
+//                     active === nav.title ? "text-white" : "text-dimWhite"
+//                   } ${index === menuOptions.length - 1 ? "mb-0" : "mb-4"}`}
+//                   onClick={() => setActive(nav.title)}
+//                 >
+//                   <a href={`${nav.id}`}>{nav.title}</a>
+//                 </li>
+//               ))}
+//             </ul>
+//           </div>
+//         </div>
+//       </nav>
+//     );
+//   };
 function Navbar() {
 
     const [openMenu, setOpenMenu] = useState(false);
@@ -98,6 +180,8 @@ function Navbar() {
 </nav>
 
   )
+
+
 }
 
 export default Navbar
