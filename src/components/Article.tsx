@@ -1,5 +1,6 @@
 import SixG from "./SixG";
 import TableOfContents, { Heading } from "./TableOfContents";
+import TableOfContentsMobile from "./TableOfContentsMobile";
 // import TableOfContentsMobile from "./TableOfContentsMobile";
 
 const Article = () => {
@@ -22,23 +23,28 @@ const Article = () => {
       },
       {
         level: 4,
-        id: "second-subsub-1",
+        id: "second-subsub1",
         text: "1G",
       },
       {
         level: 4,
-        id: "second-subsub-2",
+        id: "second-subsub2",
         text: "2G-3G",
       },
       {
         level: 4,
-        id: "second-subsub-3",
+        id: "second-subsub3",
         text: "4G",
       },
-            {
+      {
         level: 4,
-        id: "second-subsub-4",
+        id: "second-subsub4",
         text: "5G",
+      },
+      {
+        level: 3,
+        id: "second-sub2",
+        text: "Deployments",
       },
       {
         level: 2,
