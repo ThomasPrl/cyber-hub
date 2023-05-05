@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import createGlobe from 'cobe'
+import * as THREE from 'three';
 
 
 function Globe() {
@@ -33,16 +34,39 @@ function Globe() {
             // `state` will be an empty object, return updated params.
             state.phi = phi;
             phi += 0.001;
-          }
+          },
+          // onReady: ({ scene }) => {
+          //   for (let i = 0; i < 10; i++) {
+          //     const center = new THREE.Vector3();
+          //     const normal = new THREE.Vector3();
+          //     const startAngle = Math.random() * Math.PI * 2;
+          //     const endAngle = startAngle + Math.random() * Math.PI;
+          //     const arc = new THREE.ArcCurve(
+          //       center,
+          //       1,
+          //       startAngle,
+          //       endAngle,
+          //       false
+          //     );
+          //     const geometry = new THREE.BufferGeometry().setFromPoints(arc.getPoints(50));
+          //     const material = new THREE.LineBasicMaterial({
+          //       color: 0xff0000
+          //     });
+          //     const line = new THREE.Line(geometry, material);
+          //     line.position.set(0, 0, 2);
+          //     scene.add(line);
+          //   }
+          // }
+
         });
-    
+        
         return () => {
           globe.destroy();
         };
       }, []);
 
       return (
-        <div className="globe">
+        <div>
           <canvas
             ref={canvasRef}
             style={{ width: 600, height: 600, maxWidth: "100%", aspectRatio: 1 }}

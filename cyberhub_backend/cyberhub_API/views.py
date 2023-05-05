@@ -1,6 +1,7 @@
 from rest_framework import generics, renderers
 from cyberhub_API.models import Conference
-from cyberhub_API.serializers import ConferenceSerializer
+from django.contrib.auth.models import User
+from cyberhub_API.serializers import ConferenceSerializer, UserSerializer
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from rest_framework.reverse import reverse
@@ -20,8 +21,21 @@ class ConferenceList(generics.ListCreateAPIView):
     queryset = Conference.objects.all()
     serializer_class = ConferenceSerializer
 
+
 #Retrieve, update or delete a conference 
 class ConferenceDetail(generics.RetrieveUpdateDestroyAPIView):
     #permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     queryset = Conference.objects.all()
     serializer_class = ConferenceSerializer
+    
+    
+#List all the users
+class UserList(generics.ListAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+    
+    
+#Retrieve, update or delete a conference 
+class UserDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = User.objects.all()
+    serializer_class=UserSerializer
