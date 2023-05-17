@@ -2,6 +2,7 @@
   {
     "id": 1,
     "title": "IANS: CISO Roundtable Minneapolis",
+    "link": "",
     "logo": "/images/photosnap.svg",
     "acceptance": "18%",
     "featured": "A",
@@ -9,14 +10,13 @@
     "description": "Special conference for CISCO system",
     "publish_deadline": "16/01/2023",
     "date": "04/04/2023",
-    "contract": "Full Time",
     "location": "USA Only",
-    "themes": ["Networks", "CISCO", "Test"],
-    "tools": []
+    "themes": ["Networks", "CISCO", "Test"]
   },
   {
     "id": 2,
     "title": "Corinium: CISO Perth 2023",
+    "link": "",
     "logo": "/images/manage.svg",
     "acceptance": "22%",
     "featured": "A",
@@ -24,44 +24,39 @@
     "description": "5G/6G",
     "publish_deadline": "24/02/2023",
     "date": "15/05/2023",
-    "contract": "Part Time",
     "location": "Remote",
-    "themes": ["5G", "6G"],
-    "tools": ["React"]
+    "themes": ["5G", "6G"]
   },
   {
     "id": 3,
     "title": "Account",
+    "link": "",
     "logo": "/images/account.svg",
     "acceptance": "10%",
-    "featured": false,
     "localisation": "Junior Frontend Developer",
     "description": "Frontend",
     "publish_deadline": "1 june 2024",
     "date": "2d ago",
-    "contract": "Part Time",
     "location": "USA Only",
-    "themes": ["JavaScript"],
-    "tools": ["React", "Sass"]
+    "themes": ["5G", "6G"]
   },
   {
     "id": 4,
     "title": "MyHome",
+    "link": "",
     "logo": "/images/myhome.svg",
     "acceptance": false,
-    "featured": false,
     "localisation": "Junior Frontend Developer",
     "description": "Frontend",
     "publish_deadline": "Junior",
     "date": "5d ago",
-    "contract": "Contract",
     "location": "USA Only",
-    "themes": ["CSS", "JavaScript"],
-    "tools": []
+    "themes": ["CSS", "JavaScript"]
   },
   {
     "id": 5,
     "title": "Loop Studios",
+    "link": "",
     "logo": "/images/loop-studios.svg",
     "acceptance": false,
     "featured": false,
@@ -77,6 +72,7 @@
   {
     "id": 6,
     "title": "FaceIt",
+    "link": "",
     "logo": "/images/faceit.svg",
     "acceptance": false,
     "featured": false,
@@ -92,6 +88,7 @@
   {
     "id": 7,
     "title": "Shortly",
+    "link": "",
     "logo": "/images/shortly.svg",
     "acceptance": false,
     "featured": false,
@@ -107,6 +104,7 @@
   {
     "id": 8,
     "title": "Insure",
+    "link": "",
     "logo": "/images/insure.svg",
     "acceptance": false,
     "featured": false,
@@ -122,6 +120,7 @@
   {
     "id": 9,
     "title": "Eyecam Co.",
+    "link": "",
     "logo": "/images/eyecam-co.svg",
     "acceptance": false,
     "featured": false,
@@ -137,6 +136,7 @@
   {
     "id": 10,
     "title": "The Air Filter title",
+    "link": "",
     "logo": "/images/the-air-filter-company.svg",
     "acceptance": false,
     "featured": false,

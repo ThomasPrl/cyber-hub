@@ -24,7 +24,7 @@ const ConferencesBoard = ( {conference, handleTagClick }) => {
                         </span>
                     </span>
                 </h3>
-                <h2 className='font-bold text-xl my-2'>{conference.title}</h2>
+                <a href={conference.link} className='font-bold text-xl my-2'>{conference.title}</a>
                 <p className='text-gray-700'>
                     Deadline: {conference.publish_deadline} · Date: {conference.date}
                 </p>
