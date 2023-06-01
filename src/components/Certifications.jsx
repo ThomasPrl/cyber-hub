@@ -7,7 +7,7 @@ function Certifications() {
   return (
     <div>
         <h1 className="page-title">
-            <span className='text-gradient text-4xl'>Certifications</span>
+            <span className='text-gradient text-5xl mb-10'>Certifications</span>
         </h1>
         <Cards />
     </div>

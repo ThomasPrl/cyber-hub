@@ -10,9 +10,12 @@ const ConferencesBoard = ( {conference, handleTagClick }) => {
     }
 
     return(
+
         <div className='flex flex-col bg-white shadow-md my-16 p-6 rounded lg:flex-row lg:my-4'>
             <div>
-                <img className="-mt-10 ml-5 mb-4 w-20 h-20 lg:mt-0 lg:h-24 lg:w-24 lg:my-0" src={conference.logo} alt={conference.title}/>
+                <a href={conference.link} >
+                    <img className="-mt-10 ml-5 mb-4 w-20 h-20 lg:mt-0 lg:h-24 lg:w-24 lg:my-0" src={conference.logo} alt={conference.title}/>
+                </a>
             </div>
             <div className='flex flex-col justify-between ml-4'>
                 <h3 className='font-bold text-lg text-blue-600'>

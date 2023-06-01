@@ -49,31 +49,53 @@ function Conferences() {
 
 
   //Trie
+  // const sortConferences = (conferences) => {
+  //   const sortedConferences = [...conferences];
+  
+  //   if (sortBy === 'date') {
+  //     sortedConferences.sort((a, b) => {
+  //       if (sortDirection === 'asc') {
+  //         return new Date(a.date) - new Date(b.date);
+  //       } else {
+  //         return new Date(b.date) - new Date(a.date);
+  //       }
+  //     });
+  //   } else if (sortBy === 'deadline') {
+  //     sortedConferences.sort((a, b) => {
+  //       if (sortDirection === 'asc') {
+  //         console.log(a.deadline) 
+  //         return new Date(a.deadline) - new Date(b.deadline);
+  //       } else {
+  //         console.log(b.deadline)
+  //         return new Date(b.deadline) - new Date(a.deadline);
+  //       }
+  //     });
+  //   }
+  //   return sortedConferences;
+  // };
+
   const sortConferences = (conferences) => {
     const sortedConferences = [...conferences];
   
-    if (sortBy === 'date') {
-      sortedConferences.sort((a, b) => {
-        if (sortDirection === 'asc') {
+    sortedConferences.sort((a, b) => {
+      if (sortDirection === 'asc') {
+        if (sortBy === 'date') {
           return new Date(a.date) - new Date(b.date);
-        } else {
-          return new Date(b.date) - new Date(a.date);
-        }
-      });
-    } else if (sortBy === 'deadline') {
-      sortedConferences.sort((a, b) => {
-        if (sortDirection === 'asc') {
-          console.log(a.deadline)
+        } else if (sortBy === 'deadline') {
           return new Date(a.deadline) - new Date(b.deadline);
-        } else {
-          console.log(b.deadline)
+        }
+      } else {
+        if (sortBy === 'date') {
+          return new Date(b.date) - new Date(a.date);
+        } else if (sortBy === 'deadline') {
           return new Date(b.deadline) - new Date(a.deadline);
         }
-      });
-    }
+      }
+      return 0;
+    });
+  
     return sortedConferences;
   };
-
   const sortedConferences = sortConferences(filteredConferences);
 
   return (
@@ -106,7 +128,7 @@ function Conferences() {
                 }}
                 className={`flex justify-center items-center mr-4 ml-4 text-white text-sm font-bold bg-blue-500 cursor-pointer focus:shadow-outline rounded-full px-2 py-1 ${sortBy === 'deadline' ? '' : ''}`}
               >
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-calendar-check" viewBox="0 0 16 16">
                   <path d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
                   <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
                 </svg>
@@ -128,7 +150,7 @@ function Conferences() {
           </span>
           {isHovered && (
             <span className="max-w-sm absolute bg-blue-100 -mt-24   text-sm text-black px-2 py-1 rounded shadow ml-auto right-0">
-              An <span className='font-bold'>Acceptance Rate</span> is the percentage of meeting requests which are accepted at a given conference. It's calculated per year. Here, the acceptance rate was caclulated on the year <span className='underline'>2020</span>.
+              An <span className='font-bold'>Acceptance Rate</span> is the percentage of papers which are accepted at a given conference. It's calculated per year. Here, the acceptance rate was caclulated on the years <span className='underline'>2018 to 2022</span> (based on the most recent data).
             </span>
           )}
         </span>
