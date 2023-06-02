@@ -54,10 +54,18 @@ function Cards() {
             <div className="card_content">
                 <h2 className="card_title">IBM Cybersecurity Analyst Professional Certificate</h2>
             <div className="card_text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. <strong></strong>
-                </p>
+                <p><strong>Time to complete:</strong> 3 months, with 10 hours of study a week</p>
                 <hr />
-                <p>Lorem ipsum dolor sit amet. <strong></strong>
+                <p>The course is separated in different parts:<br/>
+                <strong>1.</strong> Introduction to Cybersecurity Tools & Cyber Attacks.<br/>
+                <strong>2.</strong> Cybersecurity Roles, Processes & Operating System Security.<br/>
+                <strong>3.</strong> Cybersecurity Compliance Framework & System Administration.<br/>
+                <strong>4.</strong> Network Security & Database Vulnerabilities.<br/>
+                <strong>5.</strong> Penetration Testing, Incident Response & Forensics.<br/>
+                <strong>6.</strong> Cyber Threat Intelligence.<br/>
+                <strong>7.</strong> Cybersecurity Capstone : Breach Response Case Studies.<br/>
+                        
+                        <strong></strong>
                 </p>
             </div>
             </div>
@@ -76,17 +84,14 @@ function Cards() {
             <div className="card_content">
             <h2 className="card_title">GIAC Certified Forensic Analyst (GCFA)</h2>
             <div className="card_text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, itaque veniam alias consequuntur modi ratione voluptates quos molestiae sit delectus.
-                </p>
-                <hr />
-                {/* <p>Choose your drizzle: <strong>cherry-balsamic vinegar</strong>, <strong>local honey</strong>, or
-                <strong>housemade chocolate sauce</strong>.
-                </p> */}
+                <p><strong>Validity:</strong> Certification remains valid for four years, after which it can be renewed.</p>
+                <p><strong>Knowledge Requirements:</strong> Expertise in incident response, digital forensics, and evidence analysis, including disk and memory forensics, network forensics, and malware analysis.</p>
+                <p><strong>Targeted Jobs:</strong> Digital forensics analyst, incident responder, cybersecurity researcher, forensics consultant, and similar roles.</p>
+                {/* <hr /> */}
             </div>
             </div>
         </div>
         </li>
-
 
         <li className="cards_item">
         <div className="card">
@@ -100,12 +105,12 @@ function Cards() {
             <div className="card_content">
             <h2 className="card_title">CompTIA Cybersecurity Analyst (CySA+)</h2>
             <div className="card_text">
+                <p><strong>Validity:</strong> No expiration, but the certification is recommended to be renewed every three years.</p>
+                <p><strong>Knowledge Requirements:</strong> Skills in performing data analysis, vulnerability management, threat and incident response, and applying security controls.</p>
+                <p><strong>Experience Requirements:</strong> A minimum of 4 years of experience in the field is recommended.</p>
+                <p><strong>Targeted Jobs:</strong> Security analyst, cybersecurity specialist, threat intelligence analyst, and similar entry-level security positions.</p>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni rerum in eveniet facilis iure maiores architecto fugit odio ratione laudantium?
                 </p>
-                <hr />
-                {/* <p>Choose your drizzle: <strong>cherry-balsamic vinegar</strong>, <strong>local honey</strong>, or
-                <strong>housemade chocolate sauce</strong>.
-                </p> */}
             </div>
             </div>
         </div>
@@ -114,7 +119,7 @@ function Cards() {
         <li className="cards_item">
         <div className="card">
             <div className="card_image">
-                <span className="note">Beginner</span>
+                <span className="note">Intermediate</span>
                 <a href='https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/'>
                     <img src="images/ceh.png" alt="CEH logo" />
                 </a>
@@ -123,12 +128,13 @@ function Cards() {
             <div className="card_content">
             <h2 className="card_title">Certified Ethical Hacker (CEH)</h2>
             <div className="card_text">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, nisi? Nihil sunt aspernatur quibusdam eveniet. Quas quasi maxime in porro.
-                </p>
+                <p><strong>Validity:</strong> Certified individuals must earn Continuing Professional Development (CPD) credits to maintain their certification every three years.</p>
+                <p><strong>Knowledge requirements:</strong> Understanding of ethical hacking methodologies, techniques, and tools. Familiarity with vulnerabilities, common exploits, and countermeasures.</p>
+                <p><strong>Other requirement:</strong> before being authorized to take the exam, an application is required and will be reviewed by the council.</p>
+                <p><strong>Targeted jobs:</strong> Ethical hacker, penetration tester, security analyst, security consultant, and related roles.</p>
                 <hr />
-                {/* <p>Choose your drizzle: <strong>cherry-balsamic vinegar</strong>, <strong>local honey</strong>, or
-                <strong>housemade chocolate sauce</strong>.
-                </p> */}
+                <p>There are trainings provided by CEH, which range from $850 to $2,999 for the Certified Ethical Hacker training.</p>
+
             </div>
             </div>
         </div>
@@ -146,18 +152,25 @@ function Cards() {
             <div className="card_content">
             <h2 className="card_title">Certified Information Systems Security Professional (CISSP)</h2>
             <div className="card_text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum assumenda saepe eaque exercitationem tempora unde inventore nemo itaque, quod quae, explicabo, tempore cum adipisci eius molestias sequi neque. Aliquam, incidunt.
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque hic repudiandae officiis laboriosam minima quasi, a quo eligendi omnis! Totam molestiae voluptatibus temporibus aliquam aut voluptate? Nihil libero, facere, sit expedita iste nostrum ipsam accusantium provident quae aliquid voluptatibus suscipit debitis consectetur? Eos deserunt aliquid aspernatur iste saepe. Unde, beatae?
-                </p>
+                <p><strong>Validity:</strong> Certified individuals must earn Continuing Professional Education (CPE) credits to maintain their certification every three years.</p>
+                <p><strong>Knowledge requirements:</strong> Broad knowledge of various cybersecurity domains, including security and risk management, asset security, security architecture and engineering, communication and network security, identity and access management, security assessment and testing, security operations, and software development security.</p>
+                <p><strong>Experience requirements:</strong> A minimum of 5 years of experience in the field is required.</p>
+                <p><strong>Targeted jobs:</strong> Security consultant, security analyst, security manager, security auditor, IT auditor, security architect, and similar roles.</p>
+
                 <hr />
-                {/* <p>This unforgettable sandwich has all of the classNameic Reuben elements: <strong>corned beef</strong>, <strong>rye
-                    bread</strong>, <strong>creamy Russian dressing</strong>, <strong>sauerkraut</strong>, plus a <strong>sweet gherkin pickle</strong>.
-                No substitions please!
-                </p> */}
-                {/* <p>Add a side of <strong>french fries</strong> or <strong>sweet potato fries</strong> for $2 more, or our
-                <strong>housemade pub chips</strong> for $1.
-                </p> */}
+
+                <p>Domains covered:<br/>
+                <strong>1.</strong> Security and Risk Management<br/>
+                <strong>2.</strong> Asset Security<br/>
+                <strong>3.</strong> Security Architecture and Engineering<br/>
+                <strong>4.</strong> Communication and Network Security<br/>
+                <strong>5.</strong> Identity and Access Management (IAM)<br/>
+                <strong>6.</strong> Security Assessment and Testing<br/>
+                <strong>7.</strong> Security Operations<br/>
+                <strong>8.</strong> Software Development Security<br/></p>
+                <p>The exam takes 4 hours.</p>
+
+
             </div>
             </div>
         </div>
@@ -175,12 +188,14 @@ function Cards() {
             <div className="card_content">
             <h2 className="card_title">Certified Information Security Manager (CISM)</h2>
             <div className="card_text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eveniet quas et totam accusantium. In consequuntur repudiandae fugiat id maiores?
-                </p>
+                <p><strong>Validity:</strong> Certified individuals must earn Continuing Professional Education (CPE) credits to maintain their certification every three years.</p>
+                <p><strong>Knowledge requirements:</strong> Understanding of information security management, including governance, risk management, program development, incident management, and compliance.</p>
+                <p><strong>Targeted jobs:</strong> Information security manager, IT auditor, IT consultant, security consultant, risk manager, and similar roles.</p>
                 <hr />
-                {/* <p>Choose your drizzle: <strong>cherry-balsamic vinegar</strong>, <strong>local honey</strong>, or
-                <strong>housemade chocolate sauce</strong>.
-                </p> */}
+                <p>A course is available to prepare for the exam, which you can register for and have access to it for one year. The prices are:<br/>
+                -	$895.00 (Non-member Pricing)<br/>
+                -	$795.00 (Member Pricing)
+                </p>
             </div>
             </div>
         </div>
@@ -198,12 +213,9 @@ function Cards() {
             <div className="card_content">
             <h2 className="card_title">GIAC Security Essentials Certification (GSEC)</h2>
             <div className="card_text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eveniet nam assumenda odit doloribus cum, tempora sunt iste omnis est.
-                </p>
-                <hr />
-                {/* <p>Choose your drizzle: <strong>cherry-balsamic vinegar</strong>, <strong>local honey</strong>, or
-                <strong>housemade chocolate sauce</strong>.
-                </p> */}
+                <p><strong>Validity:</strong> Certification remains valid for four years, after which it can be renewed.</p>
+                <p><strong>Knowledge Requirements:</strong> Fundamental knowledge of information security concepts, including networking, protocols, operating systems, access controls, and incident response.</p>
+                <p><strong>Targeted Jobs:</strong> Security analyst, security consultant, IT auditor, network administrator, and similar entry-level cybersecurity roles.</p>
             </div>
             </div>
         </div>
@@ -221,18 +233,16 @@ function Cards() {
             <div className="card_content">
             <h2 className="card_title">CompTIA Security+</h2>
             <div className="card_text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nemo mollitia vitae similique asperiores, aperiam tenetur! Tenetur officiis excepturi totam!
-                </p>
-                <hr />
-                {/* <p>Choose your drizzle: <strong>cherry-balsamic vinegar</strong>, <strong>local honey</strong>, or
-                <strong>housemade chocolate sauce</strong>.
-                </p> */}
+                <p><strong>Validity:</strong> No expiration, but the certification is recommended to be renewed every three years.</p>
+                <p><strong>Knowledge Requirements:</strong> Fundamental knowledge of network security, threats, vulnerabilities, cryptography, access control, identity management, and security best practices.</p>
+                <p><strong>Targeted Jobs:</strong> Security specialist, security analyst, network administrator, systems administrator, and similar entry-level cybersecurity roles.</p>
             </div>
             </div>
         </div>
         </li>
     </ul>
     </div>
+
 
   )
 }
