@@ -41,6 +41,14 @@ function Cards() {
 
 
     <div className="main">
+
+    <div class="relative flex py-5 items-center">
+        <div class="flex-grow border-t border-gray-400"></div>
+        <span class="flex-shrink mx-4 text-blue-600">Analyst</span>
+        <div class="flex-grow border-t border-gray-400"></div>
+    </div>
+
+
     <ul className="cards">
         <li className="cards_item">
         <div className="card card-hover">
@@ -64,30 +72,7 @@ function Cards() {
                 <strong>5.</strong> Penetration Testing, Incident Response & Forensics.<br/>
                 <strong>6.</strong> Cyber Threat Intelligence.<br/>
                 <strong>7.</strong> Cybersecurity Capstone : Breach Response Case Studies.<br/>
-                        
-                        <strong></strong>
                 </p>
-            </div>
-            </div>
-        </div>
-        </li>
-
-        <li className="cards_item">
-        <div className="card">
-            <div className="card_image">
-                <span className="note">Advanced</span>
-                <a href='https://www.giac.org/certifications/certified-forensic-analyst-gcfa/'>
-                    <img src="images/GCFA.png" alt="GCFA logo" />
-                </a>
-                <span className="card_price"><span>$</span>1899</span>
-            </div>
-            <div className="card_content">
-            <h2 className="card_title">GIAC Certified Forensic Analyst (GCFA)</h2>
-            <div className="card_text">
-                <p><strong>Validity:</strong> Certification remains valid for four years, after which it can be renewed.</p>
-                <p><strong>Knowledge Requirements:</strong> Expertise in incident response, digital forensics, and evidence analysis, including disk and memory forensics, network forensics, and malware analysis.</p>
-                <p><strong>Targeted Jobs:</strong> Digital forensics analyst, incident responder, cybersecurity researcher, forensics consultant, and similar roles.</p>
-                {/* <hr /> */}
             </div>
             </div>
         </div>
@@ -109,13 +94,60 @@ function Cards() {
                 <p><strong>Knowledge Requirements:</strong> Skills in performing data analysis, vulnerability management, threat and incident response, and applying security controls.</p>
                 <p><strong>Experience Requirements:</strong> A minimum of 4 years of experience in the field is recommended.</p>
                 <p><strong>Targeted Jobs:</strong> Security analyst, cybersecurity specialist, threat intelligence analyst, and similar entry-level security positions.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni rerum in eveniet facilis iure maiores architecto fugit odio ratione laudantium?
-                </p>
             </div>
             </div>
         </div>
         </li>
 
+        <li className="cards_item">
+        <div className="card">
+            <div className="card_image">
+                <span className="note">Intermediate</span>
+                <a href='https://www.giac.org/certifications/security-essentials-gsec/'>
+                    <img src="images/GSEC.png" alt="GSEC logo" />
+                </a>
+                <span className="card_price"><span>$</span>1899</span>
+            </div>
+            <div className="card_content">
+            <h2 className="card_title">GIAC Security Essentials Certification (GSEC)</h2>
+            <div className="card_text">
+                <p><strong>Validity:</strong> Certification remains valid for four years, after which it can be renewed.</p>
+                <p><strong>Knowledge Requirements:</strong> Fundamental knowledge of information security concepts, including networking, protocols, operating systems, access controls, and incident response.</p>
+                <p><strong>Targeted Jobs:</strong> Security analyst, security consultant, IT auditor, network administrator, and similar entry-level cybersecurity roles.</p>
+            </div>
+            </div>
+        </div>
+        </li>
+
+        <li className="cards_item">
+        <div className="card">
+            <div className="card_image">
+                <span className="note">Advanced</span>
+                <a href='https://www.giac.org/certifications/certified-forensic-analyst-gcfa/'>
+                    <img src="images/GCFA.png" alt="GCFA logo" />
+                </a>
+                <span className="card_price"><span>$</span>1899</span>
+            </div>
+            <div className="card_content">
+            <h2 className="card_title">GIAC Certified Forensic Analyst (GCFA)</h2>
+            <div className="card_text">
+                <p><strong>Validity:</strong> Certification remains valid for four years, after which it can be renewed.</p>
+                <p><strong>Knowledge Requirements:</strong> Expertise in incident response, digital forensics, and evidence analysis, including disk and memory forensics, network forensics, and malware analysis.</p>
+                <p><strong>Targeted Jobs:</strong> Digital forensics analyst, incident responder, cybersecurity researcher, forensics consultant, and similar roles.</p>
+            </div>
+            </div>
+        </div>
+        </li>
+
+    </ul>
+
+    <div class="relative flex mt-10 py-5 items-center">
+        <div class="flex-grow border-t border-gray-400"></div>
+        <span class="flex-shrink mx-4 text-blue-600">Specialist</span>
+        <div class="flex-grow border-t border-gray-400"></div>
+    </div>
+
+    <ul className="cards">
         <li className="cards_item">
         <div className="card">
             <div className="card_image">
@@ -179,6 +211,34 @@ function Cards() {
         <li className="cards_item">
         <div className="card">
             <div className="card_image">
+                <span className="note">Advanced</span>
+                <a href='https://www.comptia.org/certifications/security'>
+                    <img src="images/security+.png" alt="Security+ logo" />
+                </a>
+                <span className="card_price"><span>$</span>392</span>
+            </div>
+            <div className="card_content">
+            <h2 className="card_title">CompTIA Security+</h2>
+            <div className="card_text">
+                <p><strong>Validity:</strong> No expiration, but the certification is recommended to be renewed every three years.</p>
+                <p><strong>Knowledge Requirements:</strong> Fundamental knowledge of network security, threats, vulnerabilities, cryptography, access control, identity management, and security best practices.</p>
+                <p><strong>Targeted Jobs:</strong> Security specialist, security analyst, network administrator, systems administrator, and similar entry-level cybersecurity roles.</p>
+            </div>
+            </div>
+        </div>
+        </li>
+    </ul>
+
+    <div class="relative flex mt-10 py-5 items-center">
+        <div class="flex-grow border-t border-gray-400"></div>
+        <span class="flex-shrink mx-4 text-blue-600">Manager</span>
+        <div class="flex-grow border-t border-gray-400"></div>
+    </div>
+
+    <ul className="cards">
+        <li className="cards_item">
+        <div className="card">
+            <div className="card_image">
                 <span className="note">Intermediate</span>
                 <a href='https://www.isaca.org/credentialing/cism#/store/browse/cat/a2D4w00000Ac6NNEAZ/tiles'>
                     <img src="images/cism.png" alt="CISM logo" />
@@ -201,45 +261,6 @@ function Cards() {
         </div>
         </li>
 
-        <li className="cards_item">
-        <div className="card">
-            <div className="card_image">
-                <span className="note">Intermediate</span>
-                <a href='https://www.giac.org/certifications/security-essentials-gsec/'>
-                    <img src="images/GSEC.png" alt="GSEC logo" />
-                </a>
-                <span className="card_price"><span>$</span>1899</span>
-            </div>
-            <div className="card_content">
-            <h2 className="card_title">GIAC Security Essentials Certification (GSEC)</h2>
-            <div className="card_text">
-                <p><strong>Validity:</strong> Certification remains valid for four years, after which it can be renewed.</p>
-                <p><strong>Knowledge Requirements:</strong> Fundamental knowledge of information security concepts, including networking, protocols, operating systems, access controls, and incident response.</p>
-                <p><strong>Targeted Jobs:</strong> Security analyst, security consultant, IT auditor, network administrator, and similar entry-level cybersecurity roles.</p>
-            </div>
-            </div>
-        </div>
-        </li>
-
-        <li className="cards_item">
-        <div className="card">
-            <div className="card_image">
-                <span className="note">Advanced</span>
-                <a href='https://www.comptia.org/certifications/security'>
-                    <img src="images/security+.png" alt="Security+ logo" />
-                </a>
-                <span className="card_price"><span>$</span>392</span>
-            </div>
-            <div className="card_content">
-            <h2 className="card_title">CompTIA Security+</h2>
-            <div className="card_text">
-                <p><strong>Validity:</strong> No expiration, but the certification is recommended to be renewed every three years.</p>
-                <p><strong>Knowledge Requirements:</strong> Fundamental knowledge of network security, threats, vulnerabilities, cryptography, access control, identity management, and security best practices.</p>
-                <p><strong>Targeted Jobs:</strong> Security specialist, security analyst, network administrator, systems administrator, and similar entry-level cybersecurity roles.</p>
-            </div>
-            </div>
-        </div>
-        </li>
     </ul>
     </div>
 
