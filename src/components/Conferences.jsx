@@ -47,33 +47,6 @@ function Conferences() {
 
   const filteredConferences = conferences.filter(filterFunc);
 
-
-  //Trie
-  // const sortConferences = (conferences) => {
-  //   const sortedConferences = [...conferences];
-  
-  //   if (sortBy === 'date') {
-  //     sortedConferences.sort((a, b) => {
-  //       if (sortDirection === 'asc') {
-  //         return new Date(a.date) - new Date(b.date);
-  //       } else {
-  //         return new Date(b.date) - new Date(a.date);
-  //       }
-  //     });
-  //   } else if (sortBy === 'deadline') {
-  //     sortedConferences.sort((a, b) => {
-  //       if (sortDirection === 'asc') {
-  //         console.log(a.deadline) 
-  //         return new Date(a.deadline) - new Date(b.deadline);
-  //       } else {
-  //         console.log(b.deadline)
-  //         return new Date(b.deadline) - new Date(a.deadline);
-  //       }
-  //     });
-  //   }
-  //   return sortedConferences;
-  // };
-
   const sortConferences = (conferences) => {
     const sortedConferences = [...conferences];
   
@@ -108,7 +81,8 @@ function Conferences() {
 
         <span className='relative flex mt-10'>
 
-          <span className="flex max-w-sm">
+{/* BOUTONS DE TRIE - BUG */}
+          {/* <span className="flex max-w-sm">
             <button
                 onClick={() => {
                   setSortBy('date');
@@ -135,7 +109,7 @@ function Conferences() {
 
                 <span className='pl-2'>Deadline {sortBy === 'deadline' && <span>{sortDirection === 'asc' ? '↑' : '↓'}</span>}</span>
               </button>
-           </span>
+           </span> */}
        
 
                   

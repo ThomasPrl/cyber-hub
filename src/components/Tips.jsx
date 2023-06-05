@@ -7,7 +7,7 @@ function Tips() {
             <h1 className='text-3xl text-center text-gradient'>Tips & Ressources</h1>
 
 
-{/* LABS */}            
+            {/* LABS */}
             <div className="relative flex py-5 items-center">
                 <div className="flex-grow border-t border-gray-400"></div>
                 <span className="flex-shrink mx-4 text-blue-600">Labs</span>
@@ -15,9 +15,9 @@ function Tips() {
             </div>
 
 
-    
 
-            <div className='flex flex-wrap m-0 p-0 gap-2 justify-center items-center '>
+
+            <div className='flex flex-wrap m-0 p-0 gap-2 justify-center items-center'>
 
                 <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow" style={{ maxHeight: '28rem', overflowY: 'auto' }} >
                     <div className='sticky top-0 bg-white z-10'>
@@ -33,7 +33,7 @@ function Tips() {
                     <p className="mb-3 font-normal text-gray-500" >
                         -<strong>Price</strong>: Free for the first lessons of each classes, then you can subscribe for the premium membership and have access to all the VMs, the labs, and many more, for about $12 per month. <br />
 
-                        -<strong>Features</strong>: TryHackMe has a wide range of cybersecurity labs and challenges covering various topics such as web penetration testing, network analysis, digital forensics, and more. They provide a user-friendly interface and supports learning paths. 
+                        -<strong>Features</strong>: TryHackMe has a wide range of cybersecurity labs and challenges covering various topics such as web penetration testing, network analysis, digital forensics, and more. They provide a user-friendly interface and supports learning paths.
                     </p>
                     <a href="https://tryhackme.com/" className="inline-flex items-center text-blue-600 hover:underline">
                         Discover
@@ -136,19 +136,46 @@ function Tips() {
 
             </div>
 
-{/* YOUTUBE CHANNELS */}
+            {/* YOUTUBE CHANNELS */}
 
             <div className="relative flex mt-8 py-5 items-center">
                 <div className="flex-grow border-t border-gray-400"></div>
                 <span className="flex-shrink mx-4 text-blue-600">Youtube channels</span>
                 <div className="flex-grow border-t border-gray-400"></div>
             </div>
+{/* 
+            <div className='flex flex-wrap m-0 p-0 gap-2 justify-center items-center'>
+                <div className='aspect-auto react-players'>
+                    <div className='react-player-wrapper'>
+                        <ReactPlayer url='https://www.youtube.com/watch?v=RzWB5jL5RX0' className='react-player' />
+                    </div>
+                </div>
+                <div className='aspect-auto react-players'>
+                    <div className='react-player-wrapper'>
+                        <ReactPlayer url='https://www.youtube.com/watch?v=wX75Z-4MEoM' className='react-player' />
+                    </div>
+                </div>
+                <div className='aspect-auto react-players'>
+                    <div className='react-player-wrapper'>
+                        <ReactPlayer url='https://youtu.be/jYwNI5IB__k' className='react-player' />
+                    </div>
+                </div>
+            </div> */}
 
 
-          {/* <div className='flex justify-center aspect-auto react-players'>
-            <ReactPlayer url='https://youtu.be/h6XSOzhqS5k' />
-        </div>  */}
 
+            <div className='flex flex-wrap m-0 p-0 gap-2 justify-center items-center'>
+                <div className='aspect-auto react-players overflow-hidden'>
+                    <ReactPlayer url='https://www.youtube.com/watch?v=RzWB5jL5RX0'/>
+                </div>
+                <div className='aspect-auto react-players overflow-hidden'>
+                    <ReactPlayer url='https://www.youtube.com/watch?v=wX75Z-4MEoM' />
+                </div>
+                <div className='aspect-auto react-players overflow-hidden'>
+                    <ReactPlayer url='https://youtu.be/jYwNI5IB__k' />
+                </div>
+
+            </div>
 
         </div>
     )

@@ -46,11 +46,6 @@ function Navbar() {
             icon:<InfoIcon/>,
             path:"/about"
         },
-        {
-            text:"Account",
-            icon:<AccountCircleIcon/>,
-            path:"/profile/:id"
-        },
     ];
 
 
@@ -66,9 +61,6 @@ function Navbar() {
         <Link to="/conferences">Conferences</Link>
         <Link to="/certifications">Certifications</Link>
         <Link to="/about">About</Link>
-        {/* <a><Link to="/profile/:id">
-            <AccountCircleIcon />
-        </Link></a> */}
     </div>
 
     {/* RESPONSIVE BURGER MENU */}

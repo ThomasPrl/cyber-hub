@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { v4 as uuidv4 } from 'uuid';
 
 const ConferencesBoard = ( {conference, handleTagClick }) => {
 
@@ -35,7 +35,9 @@ const ConferencesBoard = ( {conference, handleTagClick }) => {
             <div className='flex flex-wrap items-center mt-4 mx-4 pt-4 border-t border-gray-400 border-solid lg:ml-auto lg:border-0 lg:pt-0 lg:mt-0 lg:mx-0 lg:justify-end'>
                 {tags 
                     ? tags.map((tag) => (
+                        
                         <span 
+                        key={uuidv4()}
                         onClick={() => handleTagClick(tag)}
                         className='cursor-pointer text-blue-500 bg-blue-100 mr-4 mb-4 p-2 lg:my-0 rounded lg:mb-0'>
                             {tag}
