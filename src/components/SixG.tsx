@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
 
-// import NSA from '../assets/NSA.jpg';
 
 
 const Article = () => {
@@ -50,8 +49,10 @@ const Article = () => {
         <p className='mb-4'>
           The specifity of 6G is that it could be separated into 3 layers architecture
         </p>
+
+        <img src="/images/Network_Security.png" alt="TEST" />
         <a href="#" className="mb-4 border flex flex-wrap justify-center border-gray-300 p-4 rounded-lg shadow hover:bg-green-100">
-          <h5 className="text-xl">SCHEMA TODO</h5>
+          
         </a>
 
 
@@ -108,7 +109,6 @@ const Article = () => {
           Non-Standalone (NSA): it has two benefits: much lower cost, and reusing existing facilities.
         </p>
 
-        {/* <img src={} /> */}
 
         <h2 className= "text-2xl mx-2 mb-2" id="second-sub3">Deployment</h2>
 

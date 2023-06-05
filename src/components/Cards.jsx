@@ -3,49 +3,49 @@ import React, { useState } from 'react'
 
 function Cards() {
     
-    const [cards] = useState([
-        {
-            title: 'IBM Cybersecurity Analyst Professional Certificate',
-            text: ``,
-            price:'46€ per month, financial aid available.',
-            level:'Beginner',
-            time:'3 months, with 10 hours of study a week',
-            link:'https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst'
-        },
-        {
-            title: 'Card-2',
-            text: ` Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error nostrum velit, laudantium nemo quam praesentium a expedita excepturi aliquid tempora.`
-        },
-        {
-            title: 'Card-3',
-            text: ` Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error nostrum velit, laudantium nemo quam praesentium a expedita excepturi aliquid tempora.`,
-            link:''
-        },
-        {
-            title: 'Card-4',
-            text: ` Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error nostrum velit, laudantium nemo quam praesentium a expedita excepturi aliquid tempora.`,
-            link:''
-        },
-        {
-            title: 'Card-5',
-            text: ` Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error nostrum velit, laudantium nemo quam praesentium a expedita excepturi aliquid tempora.`,
-            link:''
-        },
-        {
-            title: 'Card-6',
-            text: ` Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error nostrum velit, laudantium nemo quam praesentium a expedita excepturi aliquid tempora.`,
-            link:''
-        },
-    ])
+    // const [cards] = useState([
+    //     {
+    //         title: 'IBM Cybersecurity Analyst Professional Certificate',
+    //         text: ``,
+    //         price:'46€ per month, financial aid available.',
+    //         level:'Beginner',
+    //         time:'3 months, with 10 hours of study a week',
+    //         link:'https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst'
+    //     },
+    //     {
+    //         title: 'Card-2',
+    //         text: ` Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error nostrum velit, laudantium nemo quam praesentium a expedita excepturi aliquid tempora.`
+    //     },
+    //     {
+    //         title: 'Card-3',
+    //         text: ` Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error nostrum velit, laudantium nemo quam praesentium a expedita excepturi aliquid tempora.`,
+    //         link:''
+    //     },
+    //     {
+    //         title: 'Card-4',
+    //         text: ` Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error nostrum velit, laudantium nemo quam praesentium a expedita excepturi aliquid tempora.`,
+    //         link:''
+    //     },
+    //     {
+    //         title: 'Card-5',
+    //         text: ` Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error nostrum velit, laudantium nemo quam praesentium a expedita excepturi aliquid tempora.`,
+    //         link:''
+    //     },
+    //     {
+    //         title: 'Card-6',
+    //         text: ` Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error nostrum velit, laudantium nemo quam praesentium a expedita excepturi aliquid tempora.`,
+    //         link:''
+    //     },
+    // ])
     return (
 
 
     <div className="main">
 
-    <div class="relative flex py-5 items-center">
-        <div class="flex-grow border-t border-gray-400"></div>
-        <span class="flex-shrink mx-4 text-blue-600">Analyst</span>
-        <div class="flex-grow border-t border-gray-400"></div>
+    <div className="relative flex py-5 items-center">
+        <div className="flex-grow border-t border-gray-400"></div>
+        <span className="flex-shrink mx-4 text-blue-600">Analyst</span>
+        <div className="flex-grow border-t border-gray-400"></div>
     </div>
 
 
@@ -141,10 +141,10 @@ function Cards() {
 
     </ul>
 
-    <div class="relative flex mt-10 py-5 items-center">
-        <div class="flex-grow border-t border-gray-400"></div>
-        <span class="flex-shrink mx-4 text-blue-600">Specialist</span>
-        <div class="flex-grow border-t border-gray-400"></div>
+    <div className="relative flex mt-10 py-5 items-center">
+        <div className="flex-grow border-t border-gray-400"></div>
+        <span className="flex-shrink mx-4 text-blue-600">Specialist</span>
+        <div className="flex-grow border-t border-gray-400"></div>
     </div>
 
     <ul className="cards">
@@ -229,10 +229,10 @@ function Cards() {
         </li>
     </ul>
 
-    <div class="relative flex mt-10 py-5 items-center">
-        <div class="flex-grow border-t border-gray-400"></div>
-        <span class="flex-shrink mx-4 text-blue-600">Manager</span>
-        <div class="flex-grow border-t border-gray-400"></div>
+    <div className="relative flex mt-10 py-5 items-center">
+        <div className="flex-grow border-t border-gray-400"></div>
+        <span className="flex-shrink mx-4 text-blue-600">Manager</span>
+        <div className="flex-grow border-t border-gray-400"></div>
     </div>
 
     <ul className="cards">
