@@ -64,7 +64,8 @@ const Article = () => {
           <SixG />
         </main>
         <div className="hidden lg:block col-span-4 ">
-          <div className="sticky top-0 ml-40">
+          <div className="sticky top-0 ml-auto"
+        style={{ float: "right", maxWidth: "300px" }}>
               <TableOfContents headings={headingsData} />
           </div>
         </div>

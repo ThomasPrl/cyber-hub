@@ -143,25 +143,6 @@ function Tips() {
                 <span className="flex-shrink mx-4 text-blue-600">Youtube channels</span>
                 <div className="flex-grow border-t border-gray-400"></div>
             </div>
-{/* 
-            <div className='flex flex-wrap m-0 p-0 gap-2 justify-center items-center'>
-                <div className='aspect-auto react-players'>
-                    <div className='react-player-wrapper'>
-                        <ReactPlayer url='https://www.youtube.com/watch?v=RzWB5jL5RX0' className='react-player' />
-                    </div>
-                </div>
-                <div className='aspect-auto react-players'>
-                    <div className='react-player-wrapper'>
-                        <ReactPlayer url='https://www.youtube.com/watch?v=wX75Z-4MEoM' className='react-player' />
-                    </div>
-                </div>
-                <div className='aspect-auto react-players'>
-                    <div className='react-player-wrapper'>
-                        <ReactPlayer url='https://youtu.be/jYwNI5IB__k' className='react-player' />
-                    </div>
-                </div>
-            </div> */}
-
 
 
             <div className='flex flex-wrap m-0 p-0 gap-2 justify-center items-center'>

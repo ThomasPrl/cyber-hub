@@ -52,7 +52,9 @@ function Navbar() {
   return (
     <nav>
     <div className="navbar-logo-container">
-        <img src={LogoGradient} alt="logo"/>
+        <a href="/">
+            <img src={LogoGradient} alt="logo"/>
+        </a>
     </div>
     <div className="navbar-links-container">
 
