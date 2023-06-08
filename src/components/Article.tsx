@@ -48,13 +48,13 @@ const Article = () => {
       },
       {
         level: 2,
-        text: "Different protocols used",
+        text: "Security in the connection layer",
         id: "third",
       },
       {
         level: 2,
-        text: "Security - Physical Layer",
-        id: "fourth-heading",
+        text: "Security in the service layer",
+        id: "fourth",
       },
   ];
   return (
