@@ -56,6 +56,11 @@ const Article = () => {
         text: "Security in the service layer",
         id: "fourth",
       },
+      {
+        level: 2,
+        text: "Artificial intelligence's impact on 6G security",
+        id: "fifth",
+      },
   ];
   return (
     <div className="container max-w-5xl">

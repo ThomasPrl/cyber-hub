@@ -51,6 +51,7 @@ const Article = () => {
         </p>
 
         <img src="/images/Network_Security.png" alt="TEST" />
+        <div className='italic text-center mb-4'>Diagram of the issues associated with each protocol</div>
 
 
 
@@ -106,6 +107,9 @@ const Article = () => {
 
 
         <h2 className="text-3xl mb-4 mt-10" id="third">Security in the connection layer</h2>
+        <img src="images/SecuConnectionLayer-1.png" alt="overview of security challenges in the connection layer" />
+        <img src="images/SecuConnectionLayer-2.png" alt="An overview of security challenges in the connection layer" />
+        <p className='italic text-center mb-4'>An overview of security challenges in the connection layer</p>
         <p>
           The connection layer could be seen as the aggregation of the network layer and the transport layer. This layer has been the target of attackers, as it goes from the ground stations to the gateways. Denial-of-service, spoofing attacks… the list goes on. Thus, it is more than essential to find ways to secure this layer as much as possible.
         </p>
@@ -250,10 +254,14 @@ const Article = () => {
 
 
 
+
       <h2 className="text-3xl mb-4 mt-10" id="fourth">Security in the service layer</h2>
       <p>
         Nowadays, the service layer mainly consists of edge/fox/cloud technologies, which are different computing paradigms. In order to protect the service layer, it is needed to combine different tasks, such as authentication, firewalls, data encryption, service identity access management, data-center network protection, and many more. There are many potential technologies which could help mitigate risks.
       </p>
+      <img src="images/SecuServiceLayer-1.png" alt="overview of security challenges in the service layer" />
+      <img src="images/SecuServiceLayer-2.png" alt="overview of security challenges in the service layer" />
+      <p className='italic text-center mb-4'>An overview of security challenges in the service layer</p>
 
       <h2 className="text-xl mx-2 mb-2 mt-6" id="">6G application authentication: distributed PKI and blockchain-based PKI</h2>
       <p>
@@ -291,7 +299,6 @@ const Article = () => {
       <p className="mt-4">
         On the other hand, the problem of personal data leakage remains, leaving room for potential privacy breaches. Once a breach of confidentiality has occurred for biometric data, there is no turning back, it is not possible to “update” fingerprints. Also, it puts the owner at risk, as his or her information can be stolen (find an example in the press).
       </p>
-      <img src="images/SecuServiceLayer-1.png"/>
       <p className='mt-4'>
         Other methods to secure the service layer have been recently developed or considered:
       </p>
@@ -307,8 +314,41 @@ const Article = () => {
       <p className='mt-4'>
         <strong>Liquid software security</strong>: liquid software allows data and applications to flow between nodes, and in 6G, this platform-agnostic approach will be extended to computing nodes such as edge servers. Enhancing containerization architecture and cloudization of edge/fog nodes will facilitate the development of platform-agnostic systems (which are systems designed to be independent any specific operating system or hardware platform). However, security challenges arise, including potential attacks in multi-tenancy container-based systems and the need for research on platform-agnostic security and related attacks. In the context of the evolving "Service Everywhere" architecture, security-as-a-service models will expand to computing nodes, and proactive AI models will be upgraded to address multiple threats. Challenges remain in detecting insider attacks and implementing robust distributed backup facilities to mitigate risks.
       </p>
-      <p></p>
-      <img src="images/SecuServiceLayer-2.png"/>
+
+
+
+
+      <h2 className="text-3xl mb-4 mt-10" id="fifth">Artificial intelligence's impact on 6G security</h2>
+      <p>
+        In 6G, the big new thing is Articicial Intelligence, with Machine Learning techniques. Through this approach, systems autonomously learn from human tasks, improving performance over time - making it a core subset of AI technology. A successful 6G network must integrate this innovation while prioritizing its security integration with AI technology as well. Because enterprises serving sizable subscriber bases operate these networks - investing in enhanced security measures enhances overall network integrity while providing advanced AI benefits for those same users.The evolution of general AI will positively impact 6G-AI-based security systems, however, it does not come without problems. The next sections will discuss how AI can be a double-edged sword for 6G security.
+      </p>
+      <img src="images/SecuIA.png" className='mt-4' alt="overview on AI in the 6G layer context" />
+      <p className='italic text-center mb-4'>An overview on AI in the 6G layer context</p>
+      <p>
+        Future directions for AI in 6G security include enhancing generative learning capabilities, utilizing distributed and federated learning for large-scale datasets, leveraging unsupervised models and transfer learning to reduce training costs. Furthermore, developing explainable AI models to ensure transparency and avoid unjustifiable decisions, which coud make AI dangerous.
+      </p>
+
+      <h2 className="text-xl mx-2 mb-2 mt-6" id="">How AI could be the target of security attacks</h2>
+      <p>
+        With all that being said, AI is not unbeatable, and it can actually be defeated. It is the target of adversarial attacks, which are attacks used to deceive or manipulate AI, by introducing carefully crafted data with the intention of causing the system to make incorrect or unintended decisions. Hackers can also target AI systems using differents arrack methods depending on their knowledge of the system. These attacks exploit vulnerabilities in the training data, learning algorithms, and hyperparameters used in the learning process. Data poisoning, algorithm poisoning, and model poisoning are the three main types of attacks that target AI-based systems. Data poisoning is actually one of the major challenges in security nowadays, as it involves inserting wrong labeled data or manipulating input objects, which results to mislead machine learning algorithms.
+      </p>
+      <p className='mt-4'>
+        In 6G, where AI is crucial for applications like autonomous driving, the risks of these attacks cannot be underestimated. Defense strategies against adversarial attacks on AI systems include enhancing data quality, model protection, and output integrity restoration. AI designers can modify ML systems by reducing noise, altering data features, or removing contaminated samples during the training process. Using data collected from verified sources and employing technologies like blockchain and mutual authentication can also improve data quality.
+      </p>
+      <p className='mt-4'>
+        For model protection, specialized detectors can be added to block ongoing attacks or perform multiple evaluations to verify the model's integrity. Output obfuscation and prediction purification techniques can be used to protect the integrity of the AI system's outputs during deployment. In 6G, there will likely be specialized techniques developed to detect weaknesses in AI-empowered technologies and assess AI models. AI security protection remains at the center of nany research and discussions in both academic and industrial circles.
+      </p>
+
+      <h2 className="text-xl mx-2 mb-2 mt-6" id="">How AI can be a weapon: a look on ethical regulations</h2>
+      <p>
+        AI has the potential to be used as a weapon or tool to evade defense systems, and it poses a new challenge in terms of adversarial use. Examples of AI-powered attacks include FusionRipper, which exploits vulnerabilities in autonomous vehicles, and DeepLocker, which hides malware within legitimate applications. These attacks leverage AI to enhance their effectiveness and reconnaissance capabilities. While AI-based attacks have been extensively studied in network applications, research in the context of 6G communications is still in its early stages.
+      </p>
+      <p className='mt-4'>
+        To address the ethical concerns and prevent the abuse of AI as weapons, it is crucial to establish guidelines and promote responsible AI practices. Many companies and governments have initiated global initiatives aimed at building platforms and implementing guidelines for the ethical use of AI. These efforts may involve potential legislation and policing to ensure that AI technologies are developed and deployed in a manner that benefits humanity rather than posing a threat.
+      </p>
+      <p className='mt-4'>
+        By promoting responsible AI practices and adhering to ethical principles, the aim is to harness the potential of AI for positive purposes while mitigating the risks associated with its adversarial use. It is essential to strike a balance between utilizing AI's capabilities for innovation and addressing the potential harm that could arise from its misuse.
+      </p>
     </div >
   );
 };
