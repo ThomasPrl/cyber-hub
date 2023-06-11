@@ -50,8 +50,7 @@ const Article = () => {
           The specifity of 6G is that it could be separated into 3 layers architecture
         </p>
 
-        <img src="/images/Network_Security.png" alt="TEST" />
-        <div className='italic text-center mb-4'>Diagram of the issues associated with each protocol</div>
+
 
 
 
@@ -94,9 +93,6 @@ const Article = () => {
             - Mutual authentication and ent-to-end encryption are still a challenge and the subject to demand a breakthrough.
           </p>
         </div>
-        {/* <div className='flex justify-center aspect-auto react-players'>
-          <ReactPlayer url='https://youtu.be/h6XSOzhqS5k' />
-        </div> */}
 
         <h2 className="text-2xl mx-2 mb-2" id="second-sub2">Deployment</h2>
         <p>
@@ -108,7 +104,7 @@ const Article = () => {
 
         <h2 className="text-3xl mb-4 mt-10" id="third">Security in the connection layer</h2>
         <img src="images/SecuConnectionLayer-1.png" alt="overview of security challenges in the connection layer" />
-        <img src="images/SecuConnectionLayer-2.png" alt="An overview of security challenges in the connection layer" />
+        <img src="images/SecuConnectionLayer-2.png" alt="overview of security challenges in the connection layer" />
         <p className='italic text-center mb-4'>An overview of security challenges in the connection layer</p>
         <p>
           The connection layer could be seen as the aggregation of the network layer and the transport layer. This layer has been the target of attackers, as it goes from the ground stations to the gateways. Denial-of-service, spoofing attacks… the list goes on. Thus, it is more than essential to find ways to secure this layer as much as possible.
@@ -266,9 +262,11 @@ const Article = () => {
       <h2 className="text-xl mx-2 mb-2 mt-6" id="">6G application authentication: distributed PKI and blockchain-based PKI</h2>
       <p>
         If the concept of Public Key Cryptography doesn’t ring a bell, here is a video explaining the basic of it.<br />
-        <div className="mt-4 mb-4">
-          <ReactPlayer url='https://www.youtube.com/watch?v=GSIDS_lvRv4' />
-        </div>
+      </p>
+      <div className="mt-4 mb-4">
+        <ReactPlayer url='https://www.youtube.com/watch?v=GSIDS_lvRv4' />
+      </div>
+      <p>
         PKI (Public Key Infrastucture) is a system which provides an authentication method both for the user and for the software. There are two models for PKIs: the centralized one and the decentralized one. In the centralized PKI, it relies on a single authority for issuing the certificate and managing it. However, it represents a single point of failure: if the certificate authority is compromised, it can lead to significant security risks and breaches. One improvement that could be made would be to decentralize the PKI system, by using a blockchain-based PKI. In this way, the Certication Authorities (CAs) will be way more reliable, especially for future 6G applications. Another important point with the blockchain-based PKI is the transparency: everyone knows who did what, and when.<br />
         However, the problem with blockchain-based technologies is the computational power as well as the energy needed to run. As the processes of validating each action in the blockchain requires a consensus of each block, the complexity of the algorithms make it energy-intensive. Also, the blockchain is not completely protected of attacks, such as <strong>51% attacks</strong>, for instance.
       </p>

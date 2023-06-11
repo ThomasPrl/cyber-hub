@@ -18,7 +18,7 @@ function About() {
           Developed & maintained by <strong>Sarah R. & Thomas P.</strong>
         </p>
         <div className="flex max-w-xs">
-          <img src="images/Cassioplogo.png" alt="Cassiopée logo" />
+          <img src="images/Cassioplogo.png" alt="Cassiopée logo" className='hidden lg:block'/>
         </div>
       </div>
 
