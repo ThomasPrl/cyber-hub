@@ -263,7 +263,7 @@ const Article = () => {
       <p>
         If the concept of Public Key Cryptography doesn’t ring a bell, here is a video explaining the basic of it.<br />
       </p>
-      <div className="mt-4 mb-4">
+      <div className="mt-4 mb-4 flex justify-center">
         <ReactPlayer url='https://www.youtube.com/watch?v=GSIDS_lvRv4' />
       </div>
       <p>

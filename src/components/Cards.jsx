@@ -3,40 +3,6 @@ import React, { useState } from 'react'
 
 function Cards() {
     
-    // const [cards] = useState([
-    //     {
-    //         title: 'IBM Cybersecurity Analyst Professional Certificate',
-    //         text: ``,
-    //         price:'46€ per month, financial aid available.',
-    //         level:'Beginner',
-    //         time:'3 months, with 10 hours of study a week',
-    //         link:'https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst'
-    //     },
-    //     {
-    //         title: 'Card-2',
-    //         text: ` Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error nostrum velit, laudantium nemo quam praesentium a expedita excepturi aliquid tempora.`
-    //     },
-    //     {
-    //         title: 'Card-3',
-    //         text: ` Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error nostrum velit, laudantium nemo quam praesentium a expedita excepturi aliquid tempora.`,
-    //         link:''
-    //     },
-    //     {
-    //         title: 'Card-4',
-    //         text: ` Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error nostrum velit, laudantium nemo quam praesentium a expedita excepturi aliquid tempora.`,
-    //         link:''
-    //     },
-    //     {
-    //         title: 'Card-5',
-    //         text: ` Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error nostrum velit, laudantium nemo quam praesentium a expedita excepturi aliquid tempora.`,
-    //         link:''
-    //     },
-    //     {
-    //         title: 'Card-6',
-    //         text: ` Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error nostrum velit, laudantium nemo quam praesentium a expedita excepturi aliquid tempora.`,
-    //         link:''
-    //     },
-    // ])
     return (
 
 

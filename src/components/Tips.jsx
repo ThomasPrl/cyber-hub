@@ -145,7 +145,7 @@ function Tips() {
             </div>
 
 
-            <div className='flex flex-wrap m-0 p-0 gap-2 justify-center items-center'>
+            <div className='flex flex-wrap m-0 p-0 gap-2 justify-center'>
                 <div className='aspect-auto react-players overflow-hidden'>
                     <ReactPlayer url='https://www.youtube.com/watch?v=RzWB5jL5RX0'/>
                 </div>

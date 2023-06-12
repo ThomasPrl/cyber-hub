@@ -63,14 +63,14 @@ const Article = () => {
       },
   ];
   return (
-    <div className="container max-w-5xl">
+    <div className="container max-w-7xl">
       <div className="grid grid-cols-12 gap-4">
         <main className="col-span-12 lg:col-span-8">
           <SixG />
         </main>
         <div className="hidden lg:block col-span-4 ">
           <div className="sticky top-0 ml-auto"
-        style={{ float: "right", maxWidth: "300px" }}>
+          style={{ float: "right", maxWidth: "300px" }}>
               <TableOfContents headings={headingsData} />
           </div>
         </div>
